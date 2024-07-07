@@ -6,6 +6,10 @@
   box-sizing: border-box;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --primary-color: #272a31;
   --secondary-color: #ec5242;
@@ -61,6 +65,11 @@ li {
   list-style: none;
 }
 
+.p-lg {
+  line-height: 1.6rem;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: var(--primary-color);
@@ -84,6 +93,14 @@ a {
 h1 {
 font-size: 35px;
 color: var(--primary-color);
+}
+
+#h1-inner-text {
+  color: #36b37e;
+}
+
+#skills {
+  line-height: 1.6rem;
 }
 
 h2 {
@@ -192,4 +209,69 @@ hr {
 
 .bar.open:nth-child(3) {
   transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* footer */
+
+footer {
+  margin: 0 20px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+input,
+textarea {
+  border: 1px solid #d0d9d4;
+  padding: 10px;
+  font-size: 90%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+textarea {
+  font-family: inherit;
+  border: 1px solid #36b37f;
+}
+
+button {
+  background-color: var(--primary-color);
+  padding: 10px 15px;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 15px;
+  border: none;
+}
+
+button:hover {
+  border: 1px solid #02a869;
+}
+
+.social-hadles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 20px auto;
+}
+
+.social-media {
+  display: flex;
+  width: 100px;
+  margin: 0 10px;
+}
+
+.social-media li {
+  margin: 0 6px;
+}
+
+.social-media a {
+  font-size: 16px;
 }

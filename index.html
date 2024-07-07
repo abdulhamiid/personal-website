@@ -20,7 +20,7 @@
     <nav>
       <ul class="nav-links" id="nav-links">
           <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="#main">About</a></li>
           <li><a href="#">Recent works</a></li>
           <li><a href="#">Contact</a></li>
       </ul>
@@ -28,9 +28,47 @@
   </nav>
   
   </header>
-  <main class="container">
+  <main id="main" class="container">
     <h1 class="code">Hey there. I'm Abdulhamid <br><span id="h1-inner-text">I am a Full-Stack developer</span></h1>
-    <p class="p-lg">I'm a creative developer who loves to work on appealing websites with a passion for User Interfaces and Experience. I love spending my time coding, creating things for the web and learning new things. Pair-programming and remote work aficionado. Fluent in multiple languages, frameworks, and technologies. Strong skills include React, Redux, JavaScript, Ruby on Rails, Figma and Animation Libraries!</p>
+    <p class="p-lg">Full-stack web developer and open-source enthusiast with a love for clean code and accessible design, pair  programming and remote work aﬁcionado, background in developing eﬃcient software applications in a global market. 2+ years of industry experience. Skilled in optimizing website performance for speed, agility, and better user experience.</p>
+    <section id="skills">
+      <h2 class="code">My Skills</h2>
+      <ul class="flex-column container">
+        <li class="about-card">
+          <img src="img/icon-languages.png" alt="icon-frameworks">
+          <h3 class="font-md">Languages</h3>
+          <ul class="flex">
+            <li class="li-padding bg-light">JavaScript</li>
+            <li class="li-padding bg-light">Ruby</li>
+            <li class="li-padding bg-light">HTML</li>
+            <li class="li-padding bg-light">CSS</li>
+          </ul>
+        </li>
+        <li class="about-card">
+          <img src="img/icon-frameworks.png" alt="icon-frameworks">
+          <h3 class="font-md">Frameworks</h3>
+          <ul class="flex">
+            <li class="li-padding bg-light ">Bootstrap</li>
+            <li class="li-padding bg-light ">Ruby on rails</li>
+            <li class="li-padding bg-light ">RSpec</li>
+            <li class="li-padding bg-light ">React</li>
+            <li class="li-padding bg-light ">Capybara</li>
+            <li class="li-padding bg-light ">Selenium</li>
+          </ul>
+        </li>
+        <li class="about-card">
+          <img src="img/icon-skills.png" alt="icon-frameworks">
+          <h3 class="font-md">Skills</h3>
+          <ul class="flex">
+            <li class="li-padding bg-light ">Codekit</li>
+            <li class="li-padding bg-light ">GitHub</li>
+            <li class="li-padding bg-light ">Codepen</li>
+            <li class="li-padding bg-light ">Gitlab</li>
+            <li class="li-padding bg-light ">Terminal</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
     <section>
       <h2 class="code">My Networks</h2>
       <div id="col-d"></div>
@@ -39,7 +77,37 @@
       <h2 class="code">My Recent Works</h2>
     </section>
   </main>
+  <footer class="container">
+    <form
+      action="https://formspree.io/f/mbjbbdod"
+      method="POST"
+      >
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Your message..." required></textarea>
+      <button type="submit">Get in touch</button>
+    </form>
+    <div class="container social-hadles">
+      <p>&copy; 2024 Abdulhamid</p>
+      <ul class="social-media flex">
+        <li>
+          <a href="https://www.linkedin.com/in/abdulhamid-adio" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/abdulhamiid" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/abdulhamid_adio" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 
 <script src="script.js"></script>
+<script src="https://kit.fontawesome.com/f0518f2c15.js" crossorigin="anonymous"></script>
 </body>
 </html>
