@@ -122,6 +122,7 @@ h1 {
 h2 {
   position: relative;
   padding: 12px;
+  margin-top: 25px;
   margin-bottom: 2px;
 }
 
@@ -407,6 +408,18 @@ button:hover {
   position: absolute;
   top: -5px;
   right: -5px;
+}
+
+/* hover states */
+.fa-circle-xmark:hover,
+button:hover,
+a:hover {
+  cursor: pointer;
+}
+
+.nav-links a:hover,
+.fa-circle-xmark:hover {
+  color: var(--secondary-color);
 }
 
 @media (min-width: 768px) {
