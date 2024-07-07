@@ -8,7 +8,7 @@ const myProject = [{
   source: 'https://github.com/kwekubright/javascript-group-capstone',
   image: 'assets/microflix.PNG',
   'live version': 'https://kwekubright.github.io/javascript-group-capstone/',
-},{
+}, {
   id: 2,
   name: 'Covid-19 Tracker',
   description: 'Covid Tracker is a web application to present the numerical data about corona virus pandemic, fetching the data from an API.',
@@ -33,7 +33,7 @@ function createPopup(idx, prop) {
   placeholder.insertAdjacentHTML('afterend',
     `<div id="popup-window" class="">
 
-      <div class="flex">
+      <div class="flex flex-column">
         <i class="fa-solid fa-circle-xmark"></i>
         <img src="${prop[idx].image}" alt="project" class="stretch project-img">
 

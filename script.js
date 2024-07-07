@@ -8,7 +8,7 @@ hamburger.addEventListener('click', () => {
     elem.classList.toggle('open');
     navLinks.classList.toggle('active');
   });
-})
+});
 
 const guest = [
   {
@@ -46,7 +46,7 @@ const guest = [
     description: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias, dolorem quibusdam.',
     image: './images/Paul.png',
     display: 'hs hide-friend',
-  }
+  },
 ];
 
 function createFriends(prop) {
@@ -68,4 +68,3 @@ function createFriends(prop) {
 for (let i = 0; i < guest.length; i += 1) {
   createFriends(guest[i]);
 }
-
