@@ -53,13 +53,15 @@ function createFriends(prop) {
   const subject = document.querySelector('#col-d');
   subject.insertAdjacentHTML('beforeend',
     `<div id="friend" class="${prop.display}">
-    <div><img src="${prop.image}" alt="friend image"></div>
-    <div>
-    <h3>${prop.name}</h3>
-    <p class="color-secondary italic">${prop.about}</p>
-    <hr>
-    <p id="primary-text">${prop.description}</p>
-    </div>
+      <div>
+        <img src="${prop.image}" alt="friend image">
+      </div>
+      <div>
+        <h3>${prop.name}</h3>
+        <p class="color-secondary italic">${prop.about}</p>
+        <hr>
+        <p id="primary-text">${prop.description}</p>
+      </div>
     </div>`);
 }
 

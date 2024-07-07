@@ -323,3 +323,60 @@ button:hover {
 .social-media a {
   font-size: 16px;
 }
+
+/* popup window */
+#popup-window {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(5px);
+}
+
+#popup-window > div {
+  position: relative;
+  background-color: #fefefe;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  max-width: 600px;
+  text-align: center;
+}
+
+.tech {
+  padding: 10px;
+  font-weight: 700;
+}
+
+#popup-window ul,
+#popup-window h3 {
+  margin: 10px 0;
+}
+
+#popup-window img {
+  width: 100%;
+  box-sizing: border-box;
+  height: auto;
+  border-radius: 10px;
+
+}
+
+#popup-window  a {
+  margin: 10px 5px;
+}
+
+#popup-window a i {
+  padding: 5px;
+}
+
+.fa-circle-xmark {
+  font-size: 26px;
+  position: absolute;
+  top: -5px;
+  right: -5px;
+}
