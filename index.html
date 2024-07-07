@@ -3,9 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <link rel="icon" href="assets/icon.png">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header id="header">
+    <div class="">
+        <a href="#main">
+          <img id="logo" src="assets/icon.png" alt="logo">
+        </a>
+      <div id="hamburger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+    </div>
+    <nav>
+      <ul class="nav-links" id="nav-links">
+          <li><a href="#main">About</a></li>
+          <li><a href="#networks">Networks</a></li>
+          <li><a href="#work-section">Recent works</a></li>
+          <li><a href="#footer">Contact</a></li>
+      </ul>
+ 
+  </nav>
   
+  </header>
+  <main id="main" class="container flex flex-column">
+    <h1 class="code">Hey there. I'm Abdulhamid <br><span id="h1-inner-text">I am a Full-Stack developer</span></h1>
+    <p class="p-lg">Full-stack web developer and open-source enthusiast with a love for clean code and accessible design, pair  programming and remote work aﬁcionado, background in developing eﬃcient software applications in a global market. 2+ years of industry experience. Skilled in optimizing website performance for speed, agility, and better user experience.</p>
+    <section id="skills">
+      <h2 class="code">My Skills</h2>
+      <ul class="flex flex-column">
+        <li class="">
+          <h3 class="font-md">Languages</h3>
+          <ul class=" skills-card flex">
+            <li class=""><i class="fa-brands fa-js"></i> JavaScript</li>
+            <li class=""><i class="fa-sharp fa-regular fa-gem"></i> Ruby</li>
+            <li class=""><i class="fa-brands fa-html5"></i> HTML</li>
+            <li class=""><i class="fa-brands fa-css3-alt"></i> CSS</li>
+          </ul>
+        </li>
+        <li class="">
+          <h3 class="font-md">Frameworks</h3>
+          <ul class="skills-card flex">
+            <li class=""><i class="fa-brands fa-bootstrap"></i> Bootstrap</li>
+            <li class=""><i class="fa-sharp fa-regular fa-gem"></i> Ruby on rails</li>
+            <li class=""><i class="fa-solid fa-gem"></i> RSpec</li>
+            <li class=""><i class="fa-brands fa-react"></i> React</li>
+            <li class=""><i class="fa-solid fa-mouse-field"></i> Capybara</li>
+          </ul>
+        </li>
+        <li class="">
+          <h3 class="font-md">Skills</h3>
+          <ul class="skills-card flex">
+            <li class=""><i class="fa-duotone fa-code"></i> Codekit</li>
+            <li class=""><i class="fa-brands fa-github-alt"></i> GitHub</li>
+            <li class=""><i class="fa-brands fa-codepen"></i> Codepen</li>
+            <li class=""><i class="fa-brands fa-gitlab"></i> Gitlab</li>
+            <li class=""><i class="fa-duotone fa-terminal"></i> Terminal</li>
+          </ul>
+        </li>
+      </ul>
+    </section>
+    <section id="networks">
+      <h2 class="code">My Networks</h2>
+      <div id="col-d"></div>
+    </section>
+
+    <!-- works section -->
+    <section id="work-section" class="column-grid">
+      <h2 class="code">My Recent Works</h2>
+      <div class="container-grid">
+
+        <div class="project-card">
+          <img src="assets/microflix.PNG" alt="project-1">
+          <div class="flex flex-column">
+            <h3 class="">TV maze</h3>
+            <p class="">This is a TV series website displaying several movies, users can like and comment on a ﬁlm.</p>
+            <button type="button" class="project-button" id="0">See Project</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/covid.PNG" alt="project-2">
+          <div class="flex flex-column">
+            <h3 class="">Covid-19 Tracker</h3>
+            <p class="">Covid Tracker is a web application to present the numerical data about corona virus pandemic, fetching the data from an API.</p>
+            <button type="button" class="project-button" id="1">See Project</button>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <img src="assets/todo-list.PNG" alt="project-3">
+          <div class="flex flex-column">
+            <h3 class="">To-do List</h3>
+            <p class="">This project is a simple "To-do list" website which allows user to organize their day. It simply lists the things that you need to do and allows you to mark them as complete.</p>
+            <button type="button" class="project-button" id="2">See Project</button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- footer -->
+  <footer id="footer" class="container">
+    <form
+      action="https://formspree.io/f/mbjbbdod"
+      method="POST"
+      >
+      <input type="email" name="email" placeholder="Email" required>
+      <textarea name="message" placeholder="Your message..." required></textarea>
+      <button type="submit">Get in touch</button>
+    </form>
+    <div class="container social-hadles">
+      <p>&copy; 2024 Abdulhamid</p>
+      <ul class="social-media flex">
+        <li>
+          <a href="https://www.linkedin.com/in/abdulhamid-adio" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/abdulhamiid" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/abdulhamid_adio" target="_blank">
+          <i class="fa-brands fa-x-twitter"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+<script src="https://kit.fontawesome.com/f0518f2c15.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+<script src="modal.js"></script>
 </body>
 </html>
