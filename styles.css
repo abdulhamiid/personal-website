@@ -229,6 +229,7 @@ hr {
 
 #skills h3 {
   margin: 35px auto 6px 5px;
+  font-size: 18px;
 }
 
 .skills-card {
@@ -240,9 +241,8 @@ hr {
 }
 
 .skills-card li {
-  font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 18px;
   line-height: 16px;
   letter-spacing: 0.03em;
   color: #fff;
