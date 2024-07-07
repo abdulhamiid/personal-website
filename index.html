@@ -10,7 +10,9 @@
 <body>
   <header>
     <div class="container">
-        <img id="logo" src="assets/icon.png" alt="logo">
+        <a href="#main">
+          <img id="logo" src="assets/icon.png" alt="logo">
+        </a>
       <div id="hamburger">
         <div class="bar"></div>
         <div class="bar"></div>
@@ -19,10 +21,10 @@
     </div>
     <nav>
       <ul class="nav-links" id="nav-links">
-          <li><a href="#">Home</a></li>
           <li><a href="#main">About</a></li>
-          <li><a href="#">Recent works</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="#networks">Networks</a></li>
+          <li><a href="#work-section">Recent works</a></li>
+          <li><a href="#footer">Contact</a></li>
       </ul>
  
   </nav>
@@ -65,7 +67,7 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section id="networks">
       <h2 class="code">My Networks</h2>
       <div id="col-d"></div>
     </section>
@@ -76,44 +78,45 @@
       <div class="container-grid">
 
         <div class="project-card">
-          <img src="" alt="project-1">
-          <div class="">
+          <img src="assets/microflix.PNG" alt="project-1">
+          <div class="flex flex-column">
             <h3 class="">TV maze</h3>
-            <p class="">This is a responsive website about BDS common summit which is about International medical tourist visit in Nigeria for a whole range of dental care.</p>
+            <p class="">This is a TV series website displaying several movies, users can like and comment on a ﬁlm.</p>
             <button type="button" class="project-button" id="0">See Project</button>
           </div>
+        </div>
 
-          <div class="project-card">
-            <img src="" alt="project-2">
-            <div class="">
-              <h3 class="">Covid-19 Tracker</h3>
-              <p class="">Covid Tracker is a web application to present the numerical data about corona virus pandemic, fetching the data from an API.</p>
-              <button type="button" class="project-button" id="1">See Project</button>
-            </div>
+        <div class="project-card">
+          <img src="assets/covid.PNG" alt="project-2">
+          <div class="flex flex-column">
+            <h3 class="">Covid-19 Tracker</h3>
+            <p class="">Covid Tracker is a web application to present the numerical data about corona virus pandemic, fetching the data from an API.</p>
+            <button type="button" class="project-button" id="1">See Project</button>
           </div>
+        </div>
 
-          <div class="project-card">
-            <img src="" alt="project-3">
-            <div class="">
-              <h3 class="">To-do List</h3>
-              <p class="">This project is a simple "To-do list" website which allows user to organize their day. It simply lists the things that you need to do and allows you to mark them as complete.</p>
-              <button type="button" class="project-button" id="2">See Project</button>
-            </div>
+        <div class="project-card">
+          <img src="assets/todo-list.PNG" alt="project-3">
+          <div class="flex flex-column">
+            <h3 class="">To-do List</h3>
+            <p class="">This project is a simple "To-do list" website which allows user to organize their day. It simply lists the things that you need to do and allows you to mark them as complete.</p>
+            <button type="button" class="project-button" id="2">See Project</button>
           </div>
+        </div>
 
       </div>
     </section>
   </main>
 
   <!-- footer -->
-  <footer class="container">
+  <footer id="footer" class="container">
     <form
       action="https://formspree.io/f/mbjbbdod"
       method="POST"
       >
       <input type="email" name="email" placeholder="Email" required>
       <textarea name="message" placeholder="Your message..." required></textarea>
-      <button type="submit">Get in touch <i class="fa-duotone fa-paper-plane"></i></button>
+      <button type="submit">Get in touch</button>
     </form>
     <div class="container social-hadles">
       <p>&copy; 2024 Abdulhamid</p>
