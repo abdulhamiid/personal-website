@@ -102,6 +102,8 @@ a {
 
 .nav-links li {
   margin: 10px 0;
+  font-size: 16px;
+  margin: 15px 0;
 }
 
 h1 {
@@ -403,8 +405,97 @@ button:hover {
 }
 
 .fa-circle-xmark {
-  font-size: 26px;
+  font-size: 30px;
   position: absolute;
   top: -5px;
   right: -5px;
+}
+
+@media(min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  #friend > div > p,
+  .project-card p {
+    font-size: 14px;
+    padding: 10px;
+    line-height: 1.8;
+  }
+
+  .container {
+    width: 80%;
+    margin: 25px auto;
+  }
+
+  #header {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .p-lg {
+    font-size: 1.2rem;
+    line-height: 2;
+    margin: 30px;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin: 15px auto;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .nav-links li {
+    padding: 0 20px;
+    font-size: 18px;
+  }
+
+  #hamburger {
+    display: none;
+  }
+
+ .skills-card {
+  padding: 40px;
+  min-height: 400px;
+  align-items: flex-start;
+ }
+
+ #col-d,
+ .container-grid,
+ #skills > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  gap: 20px;
+ }
+
+ #footer {
+  width: 40%;
+ }
+
+ #footer > form {
+  width: 80%;
+  padding: 30px;
+  margin: 50px auto;
+ }
+
+ #popup-window > div {
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 20px;
+  width: 80%;
+  }
+
+  #popup-window p,
+  #footer a {
+    font-size: 17px;
+    line-height: 1.4;
+  }
 }
