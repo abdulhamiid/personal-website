@@ -33,6 +33,20 @@ body {
   font-size: 14px;
 }
 
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+.flex-column {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container {
   width: 90%;
   margin: 15px auto;
@@ -44,7 +58,7 @@ nav {
 }
 
 #logo {
-  width: 30px;
+  width: 50px;
 }
 
 #hamburger {
@@ -211,6 +225,36 @@ hr {
   transform: rotate(-45deg) translate(5px, -5px);
 }
 
+/* skills */
+
+#skills h3 {
+  margin: 35px auto 6px 5px;
+}
+
+.skills-card {
+  width: 100%;
+  background-color: #1d2236;
+  border-radius: 7px;
+  padding: 20px;
+  border: none;
+}
+
+.skills-card li {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #fff;
+  margin: 8px 3px;
+  padding: 8px 10px;
+}
+
+.skills-card i {
+  color: var(--secondary-color);
+}
+
+
 /* footer */
 
 footer {
@@ -242,12 +286,16 @@ textarea {
 }
 
 button {
-  background-color: var(--primary-color);
+  background-color: #1d2236;
   padding: 10px 15px;
   color: #fff;
   border-radius: 5px;
-  font-size: 15px;
   border: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  color: #fff;
 }
 
 button:hover {
