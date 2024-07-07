@@ -412,8 +412,7 @@ button:hover {
 
 /* hover states */
 .fa-circle-xmark:hover,
-button:hover,
-a:hover {
+button:hover {
   cursor: pointer;
 }
 
