@@ -261,11 +261,8 @@ hr {
 }
 
 .project-card {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   grid-gap: 20px;
   width: 90%;
-  padding: 15px;
   border-radius: 7px;
   margin: 20px auto;
   border: 1px solid #d0d9d4;
@@ -274,10 +271,14 @@ hr {
 
 .project-card div {
   gap: 15px;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .project-card img {
   width: 100%;
+  padding: 7px;
   box-sizing: border-box;
 }
 
@@ -314,7 +315,7 @@ textarea {
 
 button {
   background-color: #1d2236;
-  padding: 10px 15px;
+  padding: 10px;
   color: #fff;
   border-radius: 5px;
   border: none;
@@ -370,7 +371,7 @@ button:hover {
   margin: 60px auto;
   padding: 20px;
   border-radius: 10px;
-  width: 80%;
+  width: 92%;
   max-width: 600px;
   text-align: center;
 }
